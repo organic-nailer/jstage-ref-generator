@@ -1,0 +1,24 @@
+{
+  "name": "jstage論文参考文献自動生成くん",
+  "manifest_version": 3,
+  "version": "0.1",
+  "author": "fastriver_org",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_title": "論文参考文献自動生成くん",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "declarativeContent"
+  ]
+}
